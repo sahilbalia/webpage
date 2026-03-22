@@ -16,7 +16,8 @@ A rich ecosystem of high-performance code
 Find a Package
 :::
 
-<form class="bd-search d-flex align-items-center" align="center" action="../search/index.html" method="get">  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search for a package" aria-label="Search" autocomplete="off" style="margin:auto;text-align:center;width:100%;max-width:600px;">
+<form class="bd-search d-flex align-items-center" action="../search/index.html" method="get">
+  <input type="search" class="form-control package-search" name="q" id="search-input" placeholder="Search for a package" aria-label="Search" autocomplete="off">
  </form>
 
 :::::{grid} 2

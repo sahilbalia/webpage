@@ -19,7 +19,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
-
       - name: Fetch pr/${{github.event.issue.number}}
         run: |
           git fetch origin pull/${{github.event.issue.number}}/head:pr-${{github.event.issue.number}}
